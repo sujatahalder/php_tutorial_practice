@@ -21,6 +21,15 @@
         Computer<input type="checkbox" name="chk3" value="computer">
         Information<input type="checkbox" name="chk4" value="Information"><br/>
 
+        Select City for admission:
+        <select name="location[]" multiple>
+            <option value="kolkata">kolkata</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="chennai">Chennai</option>
+
+        </select><br/>
+
         <input type="submit" value="Submit">
     </form>
 </body>

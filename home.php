@@ -64,12 +64,23 @@ if(isset($_REQUEST['chk3'])){
 
 }
 if(isset($_REQUEST['chk4'])){
-    echo $_REQUEST['chk4'];
+    echo $_REQUEST['chk4'] . "<br/>";
 
 }
+?>
+<?php
 
+echo "Your preffered city is: </br>";
 
+if(isset($_REQUEST['location'])){
+    foreach($_REQUEST['location'] as $place)
+    {
+        echo $place . "</br>";
 
+    }
+ 
+
+}
 ?>
 
 
