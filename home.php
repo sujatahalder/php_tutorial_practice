@@ -37,6 +37,38 @@ else
 {
     echo "<span>You have entered a wrong password: </span>"."<span style='color:red'>".$_POST["pass"]."</span>";
 }
+echo "<br/>";
+?>
+<?php
+
+echo "Your Gender is: </br>";
+
+if(isset($_REQUEST['rad1'])){
+    echo $_REQUEST['rad'] . "</br>";
+
+}
+?>
+<?php
+echo "Your stream is: </br>";
+
+if(isset($_REQUEST['chk1'])){
+    echo $_REQUEST['chk1'] . "</br>";
+
+}
+if(isset($_REQUEST['chk2'])){
+    echo $_REQUEST['chk2'] . "</br>";
+
+}
+if(isset($_REQUEST['chk3'])){
+    echo $_REQUEST['chk3'] . "</br>";
+
+}
+if(isset($_REQUEST['chk4'])){
+    echo $_REQUEST['chk4'];
+
+}
+
+
 
 ?>
 
