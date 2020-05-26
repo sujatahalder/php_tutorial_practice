@@ -96,11 +96,11 @@ if(isset($_REQUEST['location'])){
 
 <?php
 //print_r ($_FILES["myfile"]);
-echo $_FILES["myfile"]["name"]."<br/>";
-echo $_FILES["myfile"]["type"]."<br/>";
-echo $_FILES["myfile"]["tmp_name"]."<br/>";
-echo $_FILES["myfile"]["error"]."<br/>";
-echo $_FILES["myfile"]["size"]."<br/>";
+// echo $_FILES["myfile"]["name"]."<br/>";
+// echo $_FILES["myfile"]["type"]."<br/>";
+// echo $_FILES["myfile"]["tmp_name"]."<br/>";
+// echo $_FILES["myfile"]["error"]."<br/>";
+// echo $_FILES["myfile"]["size"]."<br/>";
 
 move_uploaded_file($_FILES["myfile"]["tmp_name"],"images/".$_FILES["myfile"]["name"]);
 
