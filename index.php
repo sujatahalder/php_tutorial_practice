@@ -15,6 +15,10 @@
         Male<input type="radio" name="rad1" value="male">
         Female<input type="radio" name="rad1" value="female"><br/>
 
+        Date of Birth:
+        <input type="date" name="birdate" value="<?php echo date('d-m-Y');?> "><br/>
+    
+
         Write your family member's name:
         <textarea name="family" col="30" rows="4">
 1.

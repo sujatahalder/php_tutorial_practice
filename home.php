@@ -48,6 +48,12 @@ if(isset($_REQUEST['rad1'])){
 
 }
 ?>
+<?php
+echo "Your date of birth:";
+$new_data= date('d-m-Y', strtotime($_REQUEST['birdate']));
+echo $new_data . "<br/>";
+
+?>
 <?php 
 $famdata=$_REQUEST['family'];
 echo str_replace("\n","<br/>", $famdata);
