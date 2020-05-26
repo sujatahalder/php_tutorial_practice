@@ -44,9 +44,14 @@ echo "<br/>";
 echo "Your Gender is: </br>";
 
 if(isset($_REQUEST['rad1'])){
-    echo $_REQUEST['rad'] . "</br>";
+    echo $_REQUEST['rad1'] . "</br>";
 
 }
+?>
+<?php 
+$famdata=$_REQUEST['family'];
+echo str_replace("\n","<br/>", $famdata);
+
 ?>
 <?php
 echo "Your stream is: </br>";

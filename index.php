@@ -15,6 +15,14 @@
         Male<input type="radio" name="rad1" value="male">
         Female<input type="radio" name="rad1" value="female"><br/>
 
+        Write your family member's name:
+        <textarea name="family" col="30" rows="4">
+1.
+2.
+3.
+4.
+        </textarea><br/>
+
         Select your stream: 
         Chemical<input type="checkbox" name="chk1" value="chemical">
         Electrical<input type="checkbox" name="chk2" value="electrical">
