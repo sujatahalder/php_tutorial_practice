@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="home.php" method="POST">
+    <form action="home.php" method="POST" enctype="multipart/form-data">
         username:<input type="text" name="username"></br><br/>
 
         Password:<input type="password" name="pass"><br/>
@@ -40,7 +40,10 @@
             <option value="mumbai">Mumbai</option>
             <option value="chennai">Chennai</option>
 
-        </select><br/>
+        </select><br/> 
+
+        Upload your file:
+        <input type="file" name="myfile"><br/>
 
         <input type="submit" value="Submit">
     </form>
